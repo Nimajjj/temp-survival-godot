@@ -1,0 +1,19 @@
+{
+	"Tree Branch": {
+		"ItemCategory": "Ressource",
+		"StackSize": 64,
+		"Description": "It's just a branch"
+	},
+	"Slime Potion": {
+		"ItemCategory": "Consumable",
+		"StackSize": 16,
+		"AddHealth": 10,
+		"Description": "It looks weird..."
+	},
+	"Iron Sword": {
+		"ItemCategory": "Sword",
+		"StackSize": 1,
+		"ItemAttack": 3,
+		"Description": "A rusty sword..."
+	},
+}

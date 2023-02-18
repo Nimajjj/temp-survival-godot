@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/debug/blank_chunk_1024x1024.png" type="Texture" id=1]
+
+
+
+
+[node name="DebugChunkRect" type="Sprite"]
+texture = ExtResource( 1 )

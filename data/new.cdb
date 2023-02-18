@@ -1,0 +1,161 @@
+{
+	"sheets": [
+		{
+			"name": "ItemData",
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "ItemName"
+				},
+				{
+					"typeStr": "5:Ressource,Tool,Weapon,Consumable,Build",
+					"name": "ItemCategory"
+				},
+				{
+					"typeStr": "3",
+					"name": "StackSize"
+				},
+				{
+					"typeStr": "8",
+					"name": "Effect",
+					"opt": true,
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"ItemName": "Apple",
+					"StackSize": 16,
+					"ItemCategory": 3,
+					"Effect": [
+						{
+							"Hunger": 6,
+							"Thirst": 2
+						}
+					]
+				},
+				{
+					"ItemName": "Stone",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Tree Branch",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Boards",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Bone",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Coal",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Cut Grass",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Feather",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Flower",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Iron Ingot",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Iron Ore",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Wooden Log",
+					"StackSize": 64,
+					"ItemCategory": 0
+				},
+				{
+					"ItemName": "Raw Fish",
+					"StackSize": 16,
+					"ItemCategory": 3,
+					"Effect": [
+						{
+							"Thirst": 0,
+							"Hunger": 2
+						}
+					]
+				},
+				{
+					"ItemName": "Raw Meat",
+					"StackSize": 16,
+					"ItemCategory": 3,
+					"Effect": [
+						{
+							"Thirst": 0,
+							"Hunger": 2
+						}
+					]
+				},
+				{
+					"ItemName": "Red Berries",
+					"StackSize": 16,
+					"ItemCategory": 3,
+					"Effect": [
+						{
+							"Thirst": 1,
+							"Hunger": 3
+						}
+					]
+				},
+				{
+					"ItemName": "Makeshift Axe",
+					"StackSize": 1,
+					"ItemCategory": 1
+				},
+				{
+					"ItemName": "Bonfire",
+					"StackSize": 1,
+					"ItemCategory": 4
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "ItemData@Effect",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "3",
+					"name": "Hunger",
+					"opt": true
+				},
+				{
+					"typeStr": "3",
+					"name": "Thirst"
+				}
+			]
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}
